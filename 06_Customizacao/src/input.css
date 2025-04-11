@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-black: #010101;
+    --color-red: #A83246;
+    --breakpoint-tablet: 640px;
+    --breakpoint-cel: 400px;
+    --color-new-blue: #243C5A;
+    --color-gray-900: #999;
+    --spacing-50: 20rem;
+}
