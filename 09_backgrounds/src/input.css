@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --background-image-cidade: url('/src/img/bg_cidade.jpg');
+    --background-image-tailwind: url('/src/img/tailwind.png');
+}
