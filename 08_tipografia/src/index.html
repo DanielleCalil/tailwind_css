@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>Tipografia</title>
+</head>
+<body>
+    <p class="text-xl font-serif">Testando fonte serifada</p>
+    <p class="text-xl font-sans">Testando fonte sem serifa</p>
+    <p class="text-xl font-mono">Testando fonte monospace</p>
+    <p class="text-xl font-arial">Testando fonte Arial</p>
+    <!--Tamanho de fonte-->
+    <p class="font-arial text-xs">Testando fonte</p>
+    <p class="font-arial text-lg">Testando fonte</p>
+    <p class="font-arial text-2xl">Testando fonte</p>
+    <p class="font-arial text-6xl">Testando fonte</p>
+    <p class="font-arial text-12xl">Testando fonte</p>
+    <!--Exercício 13-->
+    <p class="font-mono text-xl p-4 bg-gray-500">Testando fonte</p>
+    <!--Estilo e weight-->
+    <p class="text-xl italic">Texto em itálico</p>
+    <p class="text-xl italic font-bold">Texto em itálico</p>
+    <p class="text-xl font-extralight">Texto em weight 100</p>
+    <p class="text-xl font-black">Texto em weight 900</p>
+    <p class="text-xl font-bold">Texto em weight 600</p>
+    <p class="text-xl font-semibold">Texto em weight 500</p>
+    <!--Espaçamento entre linhas e letras-->
+    <p class="text-2xl tracking-tighter">Espaçamento entre letras MENOR</p>
+    <p class="text-2xl">Espaçamento entre letras NORMAL</p>
+    <p class="text-2xl tracking-widest">Espaçamento entre letras MAIOR</p>
+
+    <p class="text-2xl w-64 bg-yellow-200 leading-tight">Espaçamento entre linhas MENOR, mais algumas coisas para testar</p>
+    <p class="text-2xl w-64 bg-yellow-300">Espaçamento entre linhas NORMAL, mais algumas coisas para testar</p>
+    <p class="text-2xl w-64 bg-yellow-100 leading-loose">Espaçamento entre linhas MAIOR, mais algumas coisas para testar</p>
+    <!--Exercício 14-->
+    <p class="text-sm italic p-4 m-4 text-amber-800 tracking-wider bg-amber-100">Exercício 14, testando</p>
+    <!--Estilo e posição da lista-->
+    <ul class="list-disc m-5 bg-red-300 list-inside">
+        <li>Carro</li>
+        <li>Avião</li>
+        <li>Barco</li>
+        <li>Navio</li>
+    </ul>
+    <ul class="list-disc m-5 bg-red-400">
+        <li>Carro</li>
+        <li>Avião</li>
+        <li>Barco</li>
+        <li>Navio</li>
+    </ul>
+    <ul class="list-decimal m-5">
+        <li>Carro</li>
+        <li>Avião</li>
+        <li>Barco</li>
+        <li>Navio</li>
+    </ul>
+    <ul class="list-none m-5">
+        <li>Carro</li>
+        <li>Avião</li>
+        <li>Barco</li>
+        <li>Navio</li>
+    </ul>
+    <!--Alterando placeholder-->
+    <div class="m-4">
+        <input type="text" placeholder="Este é o placeholder" class="placeholder:text-red-900 placeholder:opacity-25">
+        <input type="text" placeholder="Este é o placeholder" class="placeholder:text-red-900 placeholder:opacity-100">
+    </div>
+    <!--Alinhamento de texto-->
+    <p class="bg-purple-300 text-2xl text-white p-2 text-left">Texto alinhado à esquerda</p>
+    <p class="bg-purple-400 text-2xl text-white p-2 text-center">Texto centralizado</p>
+    <p class="bg-purple-500 text-2xl text-white p-2 text-right">Texto alinhado à direita</p>
+    <p class="bg-purple-600 text-2xl text-white p-2 text-justify">Texto justificado</p>
+    <!--Adicionando cores-->
+    <p class="text-3xl text-teal-50">Testando teals</p>
+    <p class="text-3xl text-teal-100">Testando teals</p>
+    <p class="text-3xl text-teal-200">Testando teals</p>
+    <p class="text-3xl text-teal-300">Testando teals</p>
+    <p class="text-3xl text-teal-400">Testando teals</p>
+    <p class="text-3xl text-teal-500">Testando teals</p>
+    <p class="text-3xl text-teal-600">Testando teals</p>
+    <p class="text-3xl text-teal-700">Testando teals</p>
+    <p class="text-3xl text-teal-800">Testando teals</p>
+    <p class="text-3xl text-teal-900">Testando teals</p>
+    <p class="text-3xl text-teal-950">Testando teals</p>
+    <!--Exercício 15-->
+    <p class="p-4 bg-red-400 text-red-700 font-bold mx-4 rounded text-center border-2 border-red-800">Este é um alerta!</p>
+    <!--Aplicando decoration e transform-->
+    <p class="text-2xl underline">Este texto vai ter underline</p>
+    <p class="text-2xl line-through decoration-amber-500">Este texto vai ter line-through</p>
+    <p class="text-2xl underline decoration-amber-500 decoration-wavy">Este texto vai ter decoration-wavy</p>
+    <p class="text-2xl lowercase">ESSE TEXTO VAI FICAR TODO EM MINÚSCULO</p>
+    <p class="text-2xl uppercase">este texto vai ficar todo em maiúsculo</p>
+</body>
+</html>
