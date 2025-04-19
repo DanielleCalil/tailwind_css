@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Interatividade</title>
+  </head>
+  <body>
+    <div class="m-4">
+      <select class="appearance-none">
+        <option value="">Teste</option>
+      </select>
+      <select>
+        <option value="">Teste</option>
+      </select>
+    </div>
+    <!--Cursor-->
+    <div class="h-20 bg-pink-400 cursor-pointer text-center text-white">cursor-pointer</div>
+    <div class="h-20 bg-pink-500 cursor-wait text-center text-white">cursor-wait</div>
+    <div class="h-20 bg-pink-600 cursor-not-allowed text-center text-white">cursor-not-allowed</div>
+    <div class="h-20 bg-pink-700 cursor-default text-center text-white">cursor-default</div>
+    <div class="h-20 bg-pink-800 cursor-text text-center text-white">cursor-text</div>
+    <div class="h-20 bg-pink-900 cursor-move text-center text-white">cursor-move</div>
+    <!--Removendo o outline-->
+    <div class="p-6 bg-red-300">
+        <input type="text" placeholder="Clica em mim" class="outline-none">
+        <input type="text" placeholder="Clica em mim">
+    </div>
+    <!--Removendo pointer events-->
+    <div class="m-4 bg-gray-300">
+        <select class="pointer-events-none">
+          <option value="">Teste pointers</option>
+        </select>
+        <select>
+          <option value="">Teste pointers</option>
+        </select>
+        <div class="m-4">
+            <textarea name="" id="" cols="30" rows="10" class="pointer-events-none bg-white"></textarea>
+            <textarea name="" id="" cols="30" rows="10" class="bg-white"></textarea>
+        </div>
+    </div>
+    <!--Modificando o resize-->
+    <div class="m-4 p-4 bg-blue-300">
+        <textarea name="" id="" cols="30" rows="10" class="resize-none bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-x bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-y bg-white"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize bg-white"></textarea>
+    </div>
+    <!--Removendo seleção-->
+    <div class="m-4 p-4 bg-blue-300">
+        <p class="select-none">Este parágrafo NÃO pode ser selecionado</p>
+        <p class="select-all">Este parágrafo pode ser selecionado TUDO</p>
+        <p class="select-auto">Este parágrafo pode ser selecionado normalmente</p>
+    </div>
+  </body>
+</html>
