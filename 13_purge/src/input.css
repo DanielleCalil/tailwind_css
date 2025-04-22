@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@purge {
+    enabled: true,
+    content: ['./src/**/*.html'],
+}
